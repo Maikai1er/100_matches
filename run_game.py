@@ -1,6 +1,6 @@
 import time
 
-from pull_the_match import Matches
+from pull_the_match import play_game
 
 
 def run_game():
@@ -12,7 +12,7 @@ def run_game():
     time.sleep(1)
     print('The players make their moves one by one')
     time.sleep(1)
-    print('During each move the player has the right to pull 1 to 10 matches')
+    print('During each move the player has the right to pull 1 to 19 matches (only the odd number is allowed)')
     time.sleep(1)
-    print('First player to draw the last match wins!')
-    matches = Matches()
+    print('The player to draw the last match wins!')
+    play_game()
