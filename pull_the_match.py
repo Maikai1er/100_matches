@@ -1,6 +1,7 @@
-class Matches:
-    def __init__(self):
-        self.matches = 100
+def pull_the_match(player):
 
-    def pull_matches(self, *, count: int):
-        self.matches -= count
+
+def play_game():
+    matches_count = 100
+    while matches_count > 0:
+        
